@@ -118,7 +118,7 @@ main .works {
     width: 100%;
     height: 700px;
 }
-main .work {
+main .works .work {
     width: 25%;
 }
 main .works img {
@@ -126,4 +126,6 @@ main .works img {
     height: 100%;
     object-fit: cover;
     object-position: center;
+    border: 1px solid white;
+    border-collapse: collapse;
 }
