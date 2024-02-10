@@ -1,0 +1,5 @@
+“Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Aenean eu leo quam...”
+36px italic Cardo
+
+Susan Sims, Interaction Designer at XYZ
+13px bold Raleway
