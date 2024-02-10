@@ -6,6 +6,8 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+
+
 header {
     display: flex;
     flex-direction: column;
@@ -37,6 +39,8 @@ header nav .nav-block a {
 header nav .nav-block a:hover {
     color: white;
 }
+
+
 
 header .header-block {
     width: 100%;
@@ -80,6 +84,8 @@ header .header-block .header-text button:hover {
     background-color: #e01b1b;
 }
 
+
+
 main .features {
     display: flex;
     justify-content: center;
@@ -112,20 +118,51 @@ main .features .features-items .item p {
     font-size: 14px;
 }
 
+
+
 main .works {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     height: 700px;
+    gap: 1px;
 }
 main .works .work {
-    width: 25%;
+    width: calc(25% - 1px);
+    position: relative;
 }
 main .works img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: center;
-    border: 1px solid white;
-    border-collapse: collapse;
+}
+main .works .work .active {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(218, 70, 70, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: .3s;
+    z-index: 1;
+}
+main .works .work .active:hover {
+    opacity: 1;
+    background-color: rgba(218, 70, 70, 0.9);
+}
+main .works .work .active h1 {
+    text-transform: uppercase;
+    color: #f9e6e6;
+    font-weight: bold;
+    font-size: 14px;
+}
+main .works .work .active p {
+    color: #f9e6e6;
+    font-size: 14px;
 }
