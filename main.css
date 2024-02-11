@@ -191,12 +191,13 @@ main .team_container .worker .container_social{
     margin-top: 30px;
 }
 main .team_container .worker .container_social .soxial_icon {
-   display: flex;
+    display: flex;
     border: 1px solid #e8ecee ;
     height: 40px;
     width: 40px;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 main .team_container .worker h2{
     font-size: 13px;
