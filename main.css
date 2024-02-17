@@ -208,3 +208,45 @@ main .team_container .worker h2{
 main .team_container .worker h1{
     font-weight: 400;
 }
+
+
+
+main .slider-container {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+main .slide {
+    display: flex;
+    background-color: #53354a;
+    color: white;
+    background-size: cover;
+}
+main .slide1 .slider-img {
+    width: 50%;
+    height: 500px;
+    background: url('img/clients_slider/woman.jpg') center no-repeat;
+}
+main .slider-text-container {
+    width: 50%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main .slider-text {
+    width: 500px;    
+}
+main .slider-text h1 {
+    margin-bottom: 40px;
+    font-family: "Cardo", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 36px;
+}
+main .slider-text p {
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
