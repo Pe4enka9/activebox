@@ -250,3 +250,23 @@ main .slider-text p {
     font-weight: bold;
     text-transform: uppercase;
 }
+main .slider-circle-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 8px;
+    margin-top: 65px;
+    position: sticky;
+}
+main .slider-circle {
+    cursor: pointer;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: white;
+    opacity: 0.2;
+    z-index: 1;
+}
+main .active {
+    opacity: 1;
+}
