@@ -230,13 +230,13 @@ main .slide1 .slider-img {
 main .slider-text-container {
     width: 50%;
     height: 500px;
+    padding-left: 85px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
 main .slider-text {
-    width: 500px;    
+    width: 510px; 
 }
 main .slider-text h1 {
     margin-bottom: 40px;
