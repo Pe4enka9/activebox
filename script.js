@@ -1,0 +1,1 @@
+const sliderCircle = document.querySelectorAll('.slider-circle');
